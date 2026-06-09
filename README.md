@@ -1,16 +1,69 @@
-# React + Vite
+# Attack on Titans — Vite React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React site built with Vite showcasing Attack on Titans themed components and visuals.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Minimal Vite + React setup with fast HMR
+- Responsive hero/header and navbar components
+- Media assets included under `public/` and `src/assets/`
 
-## React Compiler
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `index.html` — app entry
+- `src/main.jsx` — React bootstrap
+- `src/App.jsx` — top-level app component
+- `src/components/` — UI components (Hero, Navbar, Titansize)
+- `public/` — static images and video assets
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Prerequisites: Node.js 16+ and npm or yarn.
+
+Install dependencies:
+
+```bash
+npm install
+# or
+yarn
+```
+
+Run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open the app at the URL shown in the terminal (usually `http://localhost:5173`).
+
+Build for production:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## How to Contribute
+
+- Edit or add components under `src/components/`
+- Add images or videos to `public/` and reference them from components
+- Open a PR with a short description of changes
+
+## License
+
+This repository does not specify a license. Add a `LICENSE` file if you wish to make one explicit.
+
+## Acknowledgements
+
+This project was created from a Vite React template and customized for a fan-site demo.
